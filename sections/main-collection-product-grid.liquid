@@ -190,6 +190,9 @@
                         %}
                         {% break %}
                       {% endif %}
+                      {% if matchVariant %}
+                        {% break %}
+                      {% endif %}
                     {% endfor %}
                   {% endfor %}
                   {% unless matchVariant %}
