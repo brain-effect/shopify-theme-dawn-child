@@ -176,6 +176,7 @@
                         endif
                       %}
                       {% if match_variant %}
+                        <span>test1</span>
                         {% render 'card-product',
                           card_product: variant,
                           media_aspect_ratio: section.settings.image_ratio,
@@ -196,6 +197,7 @@
                     {% endif %}
                   {% endfor %}
                   {% unless match_variant %}
+                    <span>test2</span>
                     {% render 'card-product',
                       card_product: product,
                       media_aspect_ratio: section.settings.image_ratio,
