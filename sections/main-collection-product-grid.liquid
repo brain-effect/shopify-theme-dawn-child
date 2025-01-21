@@ -153,7 +153,7 @@
               "
             >
               {% assign skip_card_product_styles = false %}
-              {% assign display_variants = collection.metafields.filter.variant_title | split: "," %}
+              {% assign display_variants = collection.metafields.custom.display_variants | split: "," %}
               {%- for product in collection.products -%}
                 {% assign match_variant = false %}
                 {% assign lazy_load = false %}
