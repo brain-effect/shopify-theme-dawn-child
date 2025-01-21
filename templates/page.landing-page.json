@@ -1,1 +1,254 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"image_banner_QaTXVE":{"type":"image-banner","blocks":{"heading_f8tAmB":{"type":"heading","settings":{"heading":"Blahblah ist für dich immer eine blahblah?","heading_size":"h1"}},"text_WGRpzP":{"type":"text","settings":{"text":"Natürlicher Support bei blahblah & Co.","text_style":"body"}},"buttons_KPjrxR":{"type":"buttons","settings":{"button_label_1":"Jetzt BLAHBLAH holen","button_link_1":"shopify:\/\/products\/sleepo-sleep","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_f8tAmB","text_WGRpzP","buttons_KPjrxR"],"settings":{"image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"scheme-1","image_behavior":"none","mobile_content_alignment":"left","stack_images_on_mobile":true,"show_text_below":false}},"rich_text_kfpxay":{"type":"rich-text","blocks":{"heading_PWMBNF":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"h1"}},"text_D7a88C":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"button_rFfYeL":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_PWMBNF","text_D7a88C","button_rFfYeL"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"image_with_text_NQzmTt":{"type":"image-with-text","blocks":{"heading_FiNDcD":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text_DDF74n":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"button_HAQUyq":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_FiNDcD","text_DDF74n","button_HAQUyq"],"settings":{"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_Y3ri3n":{"type":"image-with-text","blocks":{"heading_AfPjhf":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text_pg3qBn":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"button_TfFJNq":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_AfPjhf","text_pg3qBn","button_TfFJNq"],"settings":{"height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_banner_dTqDjr":{"type":"image-banner","settings":{"image_overlay_opacity":0,"image_height":"small","desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":false}},"featured_collection_ARihj6":{"type":"featured-collection","settings":{"title":"Featured","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"sleepo-lp","products_to_show":3,"columns_desktop":3,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":true,"quick_add":"standard","columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["main","image_banner_QaTXVE","rich_text_kfpxay","image_with_text_NQzmTt","image_with_text_Y3ri3n","image_banner_dTqDjr","featured_collection_ARihj6"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_QaTXVE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f8tAmB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Blahblah ist für dich immer eine blahbflah?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WGRpzP": {
+          "type": "text",
+          "settings": {
+            "text": "Natürlicher Support bei blahblah & Co.",
+            "text_style": "body"
+          }
+        },
+        "buttons_KPjrxR": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Jetzt BLAHBLAH holen",
+            "button_link_1": "shopify://products/sleepo-sleep",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_f8tAmB",
+        "text_WGRpzP",
+        "buttons_KPjrxR"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_kfpxay": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PWMBNF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_D7a88C": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_rFfYeL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PWMBNF",
+        "text_D7a88C",
+        "button_rFfYeL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_NQzmTt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FiNDcD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_DDF74n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_HAQUyq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FiNDcD",
+        "text_DDF74n",
+        "button_HAQUyq"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Y3ri3n": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AfPjhf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_pg3qBn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_TfFJNq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AfPjhf",
+        "text_pg3qBn",
+        "button_TfFJNq"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_dTqDjr": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "featured_collection_ARihj6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sleepo-lp",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_QaTXVE",
+    "rich_text_kfpxay",
+    "image_with_text_NQzmTt",
+    "image_with_text_Y3ri3n",
+    "image_banner_dTqDjr",
+    "featured_collection_ARihj6"
+  ]
+}
