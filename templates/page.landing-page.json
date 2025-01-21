@@ -23,14 +23,14 @@
         "heading_f8tAmB": {
           "type": "heading",
           "settings": {
-            "heading": "Blahblah ist für dich immer eine blahbflah?",
+            "heading": "{{ page.metafields.custom.hero_title.value }}",
             "heading_size": "h1"
           }
         },
         "text_WGRpzP": {
           "type": "text",
           "settings": {
-            "text": "Natürlicher Support bei blahblah & Co.",
+            "text": "{{ page.metafields.custom.hero_subtitle.value }}",
             "text_style": "body"
           }
         },
