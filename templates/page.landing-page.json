@@ -221,7 +221,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "sleepo-lp",
+        "collection": "{{ page.metafields.custom.featured_products.value }}",
         "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
