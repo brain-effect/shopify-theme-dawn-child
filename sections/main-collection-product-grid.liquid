@@ -153,9 +153,9 @@
               "
             >
               {% assign skip_card_product_styles = false %}
-              {% assign displayVariants = collection.metafields.filter.variant_title | split: "," %}
+              {% assign display_variants = collection.metafields.filter.variant_title | split: "," %}
               {%- for product in collection.products -%}
-                {% assign matchVariant = false %}
+                {% assign match_variant = false %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
@@ -167,15 +167,15 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
-                  {% for displaySku in displayVariants %}
+                  {% for display_sku in display_variants %}
                     {% for variant in product.variants %}
                       {% liquid
-                        assign variantSku = variant.sku | strip
-                        if variantSku == displaySku
-                          assign matchVariant = true
+                        assign variant_sku = variant.sku | strip
+                        if variant_sku == display_sku
+                          assign match_variant = true
                         endif
                       %}
-                      {% if matchVariant %}
+                      {% if match_variant %}
                         {% render 'card-product',
                           card_product: variant,
                           media_aspect_ratio: section.settings.image_ratio,
@@ -191,11 +191,11 @@
                         {% break %}
                       {% endif %}
                     {% endfor %}
-                    {% if matchVariant %}
+                    {% if match_variant %}
                       {% break %}
                     {% endif %}
                   {% endfor %}
-                  {% unless matchVariant %}
+                  {% unless match_variant %}
                     {% render 'card-product',
                       card_product: product,
                       media_aspect_ratio: section.settings.image_ratio,
