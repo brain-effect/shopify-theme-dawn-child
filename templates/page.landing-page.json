@@ -37,8 +37,8 @@
         "buttons_KPjrxR": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Jetzt BLAHBLAH holen",
-            "button_link_1": "shopify://products/sleepo-sleep",
+            "button_label_1": "{{ page.metafields.custom.hero_cta_label.value }}",
+            "button_link_1": "{{ page.metafields.custom.hero_cta_link.value }}",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
