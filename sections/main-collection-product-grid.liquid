@@ -190,10 +190,10 @@
                         %}
                         {% break %}
                       {% endif %}
-                      {% if matchVariant %}
-                        {% break %}
-                      {% endif %}
                     {% endfor %}
+                    {% if matchVariant %}
+                      {% break %}
+                    {% endif %}
                   {% endfor %}
                   {% unless matchVariant %}
                     {% render 'card-product',
