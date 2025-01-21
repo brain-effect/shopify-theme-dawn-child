@@ -106,7 +106,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <h1>{{ collection.metafields.filter.variant_title }}</h1>
+            <h1>Hello world: {{ collection.metafields.filter.variant_title }}</h1>
             {% for display_sku in display_variants %}
               {% for variant in product.variants %}
                 {% liquid
