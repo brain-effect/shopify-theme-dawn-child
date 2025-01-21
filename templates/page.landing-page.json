@@ -70,21 +70,21 @@
         "heading_PWMBNF": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "{{ page.metafields.custom.first_info_block_title.value }}",
             "heading_size": "h1"
           }
         },
         "text_D7a88C": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>{{ page.metafields.custom.first_info_block_text.value }}</p>"
           }
         },
         "button_rFfYeL": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "{{ page.metafields.custom.first_info_block_cta_label.value }}",
+            "button_link": "{{ page.metafields.custom.first_info_block_cta_link.value }}",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
