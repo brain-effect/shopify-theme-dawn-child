@@ -154,7 +154,7 @@
             >
               {% assign skip_card_product_styles = false %}
               {% assign display_variants = collection.metafields.filter.variant_title | split: "," %}
-              <span>{{ collection.metafields.filter.variant_title }}</span>
+              <span>Hello World: {{ collection.metafields.filter.variant_title }}</span>
               {%- for product in collection.products -%}
                 {% assign match_variant = false %}
                 {% assign lazy_load = false %}
